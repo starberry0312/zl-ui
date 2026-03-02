@@ -8,7 +8,7 @@
     "test": "pnpm -C packages/utils test && pnpm -C packages/components test",
     "build": "pnpm -C packages/utils build && pnpm -C packages/components build && pnpm -C packages/zl-ui build && pnpm -C apps/docs build",
     "build:libs": "pnpm -C packages/utils build && pnpm -C packages/components build && pnpm -C packages/zl-ui build",
-    "build:docs": "pnpm run build:libs && pnpm -C apps/docs build",
+    "build:docs": "pnpm run build:libs && pnpm -C apps/docs build && cp -r apps/docs/.vitepress/dist dist",
     "preview": "pnpm -C apps/docs preview"
   },
   "devDependencies": {
