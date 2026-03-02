@@ -1,0 +1,50 @@
+{
+  "name": "zl-ui",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./button": {
+      "import": "@zl-ui/components/button",
+      "default": "@zl-ui/components/button"
+    },
+    "./message": {
+      "import": "@zl-ui/components/message",
+      "default": "@zl-ui/components/message"
+    },
+    "./upload": {
+      "import": "@zl-ui/components/upload",
+      "default": "@zl-ui/components/upload"
+    },
+    "./autocomplete": {
+      "import": "@zl-ui/components/autocomplete",
+      "default": "@zl-ui/components/autocomplete"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@zl-ui/components": "workspace:*",
+    "@zl-ui/utils": "workspace:*",
+    "@zl-ui/theme": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vue": "^3.5.25",
+    "vue-tsc": "^3.1.5"
+  }
+}

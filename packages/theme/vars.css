@@ -1,0 +1,54 @@
+/**
+ * @zl-ui/theme - 语义化设计变量
+ * 只描述语义，不绑定具体主题值
+ * 不包含任何组件概念，可被任意主题覆盖
+ */
+
+:root {
+  /* 主色系 */
+  --zl-color-primary: #409eff;
+  --zl-color-primary-hover: #66b1ff;
+  --zl-color-primary-light: #ecf5ff;
+  --zl-color-primary-border: #c6e2ff;
+
+  /* 功能色 */
+  --zl-color-success: #67c23a;
+  --zl-color-success-hover: #85ce61;
+  --zl-color-success-bg: #f0f9eb;
+  --zl-color-success-border: #e1f3d8;
+
+  --zl-color-warning: #e6a23c;
+  --zl-color-warning-hover: #ebb563;
+  --zl-color-warning-bg: #fdf6ec;
+  --zl-color-warning-border: #faecd8;
+
+  --zl-color-danger: #f56c6c;
+  --zl-color-danger-hover: #f78989;
+  --zl-color-danger-bg: #fef0f0;
+  --zl-color-danger-border: #fde2e2;
+
+  --zl-color-info: #909399;
+  --zl-color-info-bg: #f4f4f5;
+  --zl-color-info-border: #e9e9eb;
+
+  /* 文本色 */
+  --zl-text-color-primary: #303133;
+  --zl-text-color-regular: #606266;
+  --zl-text-color-secondary: #909399;
+  --zl-text-color-placeholder: #c0c4cc;
+
+  /* 边框 */
+  --zl-border-color: #dcdfe6;
+  --zl-border-color-light: #e4e7ed;
+  --zl-border-color-lighter: #ebeef5;
+
+  /* 填充与背景 */
+  --zl-fill-color: #f5f7fa;
+  --zl-background-color: #ffffff;
+
+  /* 通用 */
+  --zl-border-radius-base: 4px;
+  --zl-font-size-base: 14px;
+  --zl-disabled-opacity: 0.6;
+  --zl-box-shadow-base: 0 2px 12px rgba(0, 0, 0, 0.1);
+}

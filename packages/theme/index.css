@@ -1,0 +1,9 @@
+/**
+ * @zl-ui/theme - 默认导出浅色主题
+ * 使用方式：
+ *   import '@zl-ui/theme'           // 浅色
+ *   import '@zl-ui/theme/dark.css'  // 深色
+ * 主题切换：document.documentElement.className = 'zl-theme-dark'
+ */
+
+@import './light.css';

@@ -1,0 +1,6 @@
+/**
+ * @zl-ui/theme - 浅色主题
+ * 覆盖 vars.css 中的变量（当前与默认一致，可扩展定制）
+ */
+
+@import './vars.css';

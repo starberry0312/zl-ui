@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand: #409eff;
+  --vp-c-brand-light: #66b1ff;
+  --vp-c-brand-lighter: #a0cfff;
+}
+
+.demo-block {
+  margin: 16px 0;
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft, #f8fafc);
+}
+
+.demo-block h4 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+}
+
+.demo-block .zl-button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+/* 品牌色增强 */
+.VPHero .name,
+.VPHero .text {
+  color: var(--vp-c-brand);
+}

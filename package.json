@@ -1,0 +1,19 @@
+{
+  "name": "zl-ui-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -C apps/docs dev",
+    "test": "pnpm -C packages/utils test && pnpm -C packages/components test",
+    "build": "pnpm -C packages/utils build && pnpm -C packages/components build && pnpm -C packages/zl-ui build && pnpm -C apps/docs build",
+    "build:libs": "pnpm -C packages/utils build && pnpm -C packages/components build && pnpm -C packages/zl-ui build",
+    "build:docs": "pnpm run build:libs && pnpm -C apps/docs build",
+    "preview": "pnpm -C apps/docs preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "~5.9.3"
+  },
+  "packageManager": "pnpm@9.14.4"
+}

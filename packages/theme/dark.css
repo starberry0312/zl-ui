@@ -1,0 +1,44 @@
+/**
+ * @zl-ui/theme - 深色主题
+ * 覆盖 vars.css 实现深色模式
+ */
+
+@import './vars.css';
+
+/* 当 html 有 zl-theme-dark 类时应用深色变量 */
+html.zl-theme-dark {
+  --zl-color-primary: #409eff;
+  --zl-color-primary-hover: #66b1ff;
+  --zl-color-primary-light: rgba(64, 158, 255, 0.15);
+  --zl-color-primary-border: rgba(64, 158, 255, 0.4);
+
+  --zl-color-success: #67c23a;
+  --zl-color-success-bg: rgba(103, 194, 58, 0.15);
+  --zl-color-success-border: rgba(103, 194, 58, 0.4);
+
+  --zl-color-warning: #e6a23c;
+  --zl-color-warning-bg: rgba(230, 162, 60, 0.15);
+  --zl-color-warning-border: rgba(230, 162, 60, 0.4);
+
+  --zl-color-danger: #f56c6c;
+  --zl-color-danger-bg: rgba(245, 108, 108, 0.15);
+  --zl-color-danger-border: rgba(245, 108, 108, 0.4);
+
+  --zl-color-info: #909399;
+  --zl-color-info-bg: rgba(144, 147, 153, 0.15);
+  --zl-color-info-border: rgba(144, 147, 153, 0.4);
+
+  --zl-text-color-primary: #e5eaf3;
+  --zl-text-color-regular: #cfd3dc;
+  --zl-text-color-secondary: #a3a6ad;
+  --zl-text-color-placeholder: #8d9095;
+
+  --zl-border-color: #4c4d4f;
+  --zl-border-color-light: #414243;
+  --zl-border-color-lighter: #363637;
+
+  --zl-fill-color: #262727;
+  --zl-background-color: #1d1e1f;
+
+  --zl-box-shadow-base: 0 2px 12px rgba(0, 0, 0, 0.4);
+}

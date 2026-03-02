@@ -1,0 +1,22 @@
+{
+  "name": "zl-ui-docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "zl-ui": "workspace:*",
+    "@zl-ui/components": "workspace:*",
+    "@zl-ui/utils": "workspace:*",
+    "@zl-ui/theme": "workspace:*",
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitepress": "^1.6.4"
+  }
+}
